@@ -12,6 +12,8 @@ namespace SistemaCaminhoneiro.Controllers
     {
         private CaminhoneiroRepositorio _repositorio;
         [HttpGet]
+
+
         // GET: Caminhoneiro
         public ActionResult ObterCaminhoneiro()
         {
